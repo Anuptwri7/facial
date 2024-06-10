@@ -56,12 +56,12 @@
         "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\layout\\setting.xml"
     },
     {
-        "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
-        "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\layout-land\\activity_main.xml"
-    },
-    {
         "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\drawable_ic_portrait.png.flat",
         "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\drawable\\ic_portrait.png"
+    },
+    {
+        "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
+        "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\layout-land\\activity_main.xml"
     },
     {
         "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\drawable_facepass3x.png.flat",
@@ -112,12 +112,12 @@
         "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\drawable\\debug.png"
     },
     {
-        "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\drawable_ic_land.png.flat",
         "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\drawable\\ic_land.png"
+    },
+    {
+        "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\merged_res\\debug\\drawable_success.png.flat",

@@ -4,7 +4,7 @@
             "outputFile": "D:\\SDK- Android\\SDK- Android\\facepass SDK and DOC\\TestFacepass-06-99-V3.14.1\\Demo\\TestFacePass\\testfacepass\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\c8cf68e535c60908db8cbba58c23d683\\transformed\\appcompat-v7-25.3.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\592d9955b500621ba874b7e195bd4932\\transformed\\appcompat-1.0.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

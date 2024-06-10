@@ -1,6 +1,7 @@
 package megvii.testfacepass;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -27,7 +28,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
+//import android.support.annotation.NonNull;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextUtils;
@@ -785,7 +786,7 @@ public class MainActivity extends Activity implements CameraManager.CameraListen
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode,  String[] permissions,  int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == PERMISSIONS_REQUEST) {
             boolean granted = true;
@@ -1131,6 +1132,7 @@ public class MainActivity extends Activity implements CameraManager.CameraListen
         }
     }
 
+    @SuppressLint("Range")
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -1393,38 +1395,31 @@ public class MainActivity extends Activity implements CameraManager.CameraListen
                 }
                 String imagePath = faceImagePathEt.getText().toString();
                 if (TextUtils.isEmpty(imagePath)) {
-                    toast("请输入正确的图片路径！");
+                    toast("\n" +
+                            "Please enter the correct image path！");
                     return;
                 }
 
                 File imageFile = new File(imagePath);
                 if (!imageFile.exists()) {
-                    toast("图片不存在 ！");
+                    toast("Picture does not exist ！");
                     return;
                 }
 
                 Bitmap bitmap = BitmapFactory.decodeFile(imagePath);
 
                 try {
-                    FacePassAddFaceResult result = mFacePassHandler.addFace(bitmap);
-                    if (result != null) {
-                        if (result.result == 0) {
-                            android.util.Log.d("qujiaqi", "result:" + result
-                                    + ",bl:" + result.blur
-                                    + ",pp:" + result.pose.pitch
-                                    + ",pr:" + result.pose.roll
-                                    + ",py" + result.pose.yaw);
-                            toast("add face successfully！");
+                    FacePassAddFaceResult result = mFacePassHandler.addFace(bitmap); if (result !=
+                            null) {
+                        if (result.result == 0) { toast("add face successfully");
                             faceTokenEt.setText(new String(result.faceToken));
-                        } else if (result.result == 1) {
-                            toast("no face ！");
+                        } else if (result.result == 1) { toast("no face ");
                         } else {
-                            toast("quality problem！");
+                            toast("quality problem");
                         }
                     }
-                } catch (FacePassException e) {
-                    e.printStackTrace();
-                    toast(e.getMessage());
+                } catch (FacePassException e)
+                { e.printStackTrace(); toast(e.getMessage());
                 }
             }
         });
